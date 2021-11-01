@@ -1,0 +1,27 @@
+{
+  "name": "notification-scheduling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
+    "tsc": "^2.0.3",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@notifire/core": "^0.2.4",
+    "@notifire/nodemailer": "^0.2.4",
+    "agenda": "^4.2.1",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1"
+  }
+}
